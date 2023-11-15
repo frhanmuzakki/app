@@ -1,0 +1,194 @@
+{
+  "intents": [
+    {
+      "tag": "menyapa",
+      "patterns": ["Halo", "Hai", "Selamat datang", "hai", "hi", "woi", "hello", "oi"],
+      "responses": ["Halo! Selamat datang di Layanan Kelurahan. Bagaimana kami bisa membantu Anda?.\n Hay, Ada yang bisa kami bantu?"],
+      "context": ["sapaan"]
+    },
+    {
+      "tag": "pergi",
+      "patterns": ["Selamat tinggal", "Dadah", "Sampai jumpa", "Terima kasih", "selamat malam", "bye"],
+      "responses": ["Sampai jumpa! Jangan ragu untuk kembali jika Anda membutuhkan informasi lebih lanjut.", "Terima kasih telah mengunjungi Layanan Kelurahan. Sampai jumpa!"],
+      "context": ["sapaan"]
+    },
+    {
+      "tag": "layanan",
+      "patterns": ["Layanan kelurahan", "Informasi layanan", "Apa yang bisa saya lakukan di kelurahan ini?"],
+      "responses": ["Di Kelurahan kami, Anda dapat mengakses berbagai layanan seperti pengurusan dokumen, informasi seputar kegiatan komunitas, dan banyak lagi. Untuk informasi lebih lanjut, silakan tanyakan kepada kami."],
+      "context": ["layanan"]
+    },
+    {
+      "tag": "sedih",
+      "patterns": ["saya sedih", "saya tidak merasa baik", "saya kecewa", "sangat sedih", "tidak baik", "sedih"],
+      "responses": ["Tidak apa, Semua akan baik baik saja, tetap semangat ya :) Apa yang bisa saya bantu untuk anda?"],
+      "context": ["sedih"]
+    },
+    {
+      "tag": "senang",
+      "patterns": ["sempurna", "luar biasa", "saya hebat", "saya baik", "sangat sempurna", "sangat bersemangat"],
+      "responses": ["Bagus, Senang mendengarnya :) Apakah ada yang bisa kami bantu?", "Bagus, Apakah Ada yang Bisa Saya Bantu?"],
+      "context": ["senang"]
+    },
+    {
+      "tag": "bot",
+      "patterns": ["siapa kamu", "apakah kamu bot", "apakah kamu manusia"],
+      "responses": ["Saya adalah bot, Saya akan menjawab pertanyaan seputar informasi Kelurahan!!."],
+      "context": ["bot"]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Terimakasih", "Saya puas", "Makasih ya"],
+      "responses": ["Terima kasih atas kunjungan Anda! Jika ada pertanyaan lain, jangan ragu untuk bertanya."],
+      "context": ["terimakasih"]
+    },
+    {
+      "tag": "tidaktahumaksud",
+      "patterns": ["Saya tidak tahu maksud Anda", "Tidak mengerti", "Apa yang Anda maksud?"],
+      "responses": ["Maaf, sepertinya ada kesalahpahaman.Bagaimana kami bisa membantu Anda dengan pertanyaan atau permintaan lainnya?"],
+      "context": ["tidaktahumaksud"]
+    },
+
+    {
+      "tag": "lokasi",
+      "patterns": ["lokasi", "dimana kelurahan mangsang", "Mana kelurahan mangsang", "tempat kelurahan mangsang"],
+      "responses": ["Letak Kelurahan Mangsang tercatat di Bida Ayu Blok H, Mangsang, Sei Beduk, Kota Batam, Kepulauan Riau 29433, Indonesia. Semoga ini membantu untuk memberikan respon yang lebih nyaman dari chatbot kami."],
+      "context": ["lokasi"]
+    },
+    {
+      "tag": "tentang",
+      "patterns": ["tentang kelurahan mangsang", "apa itu kelurahan mangsang", "about", "deskripsi kelurahan", "kelurahan mangsang"],
+      "responses": [
+        "Mangsang adalah nama kelurahan yang berada di kecamatan Sungai Beduk, Kota Batam, provinsi Kepulauan Riau, Indonesia. Luas wilayah kelurahan ini adalah 10,00 km², dengan jumlah penduduk tahun 2020 sebanyak 39.577 jiwa, dan kepadatan 3.957 jiwa/km². Kelurahan ini memiliki 26 Rukun Warga dan 106 Rukun Tetangga."
+      ],
+      "context": ["tentang"]
+    },
+    {
+      "tag": "paklurah",
+      "patterns": ["siapa pak lurah", "bapak lurah", "siapa ketua lurah", "siapa lurah kita", "siapa lurah mangsang"],
+      "responses": ["Pemimpin Kelurahan Mangsang adalah Bapak Muhammad Taher. Semoga ini membantu anda"],
+      "context": ["paklurah"]
+    },
+    {
+      "tag": "lokasisaya",
+      "patterns": ["kamu dimana", "anda dimana", "diman kamu", "dimana anda", "dimana kau"],
+      "responses": ["Saya berada di sini tepat di depan anda, Apa yang bisa saya bantu untuk anda mencari informasi seputar Kelurahan Magsang?"],
+      "context": ["lokasisaya"]
+    },
+    {
+      "tag": "kehilangan",
+      "patterns": ["berkas hilang", "dokumen hilang", "kehilangan", "tidak ketemu", "hilang"],
+      "responses": [
+        "Jika anda mendapati kehilangan KTP, KK atau berkas lain nya yang ingin anda ajukan ke kelurahan, Mohon untuk meminta surat pernyataan kehilangan kepihak kepolisian. lalu antar surat tersebut kepihak kecamatan dan surat anda akan di proses di sana "
+      ],
+      "context": ["kehilangan"]
+    },
+    {
+      "tag": "nomor",
+      "patterns": ["berapa nomor kelurahan", "menghubungi lurah", "hubungi", "kontak kelurahan", "kontak lurah", "contact person lurah"],
+      "responses": [
+        "Jika anda mendapati kehilangan KTP, KK atau berkas lain nya yang ingin anda ajukan ke kelurahan, Mohon untuk meminta surat pernyataan kehilangan kepihak kepolisian. lalu antar surat tersebut kepihak kecamatan dan surat anda akan di proses di sana "
+      ],
+      "context": ["nomor"]
+    },
+    {
+      "tag": "lanjut",
+      "patterns": ["selanjutnya", "lanjut", "lalu", "terus", "seterusnya"],
+      "responses": ["Selanjutnya, Saya sudah menjawab pertanyaan anda mohon pilih atau ketikan pertanyaan anda seputar kelurahan agar saya memberi jawabannya :) "],
+      "context": ["lanjut"]
+    },
+    {
+      "tag": "gantiktp",
+      "patterns": ["ganti ktp", "change ktp", "mengganti ktp"],
+      "responses": ["Berikut syarat melakukan pergantian KTP:\n\n1. Pengantar RT/RW setempat.\n2. KTP asli yang lama.\n3. Fotokopi Kartu Keluarga.\n4. Fotokopi Surat Nikah.\n5. Surat kehilangan.\n6. Surat perubahan data.\n7. Pas foto 3x2: 2 lembar.\n   - Tahun ganjil: latar merah.\n   - Tahun genap: latar biru.\n\nSilakan lengkapi syarat di atas untuk melakukan pergantian KTP.\nSemoga ini membantu Anda! 😊"],
+      "context": ["gantiktp"]
+    },
+    {
+      "tag": "nikah",
+      "patterns": ["menikah", "nikah", "kawin", "rumah tangga", "surat nikah"],
+      "responses": ["Berikut syarat melakukan pembuatan Surat Nikah:\n\n1. Fotokopi KTP / KK.\n2. Fotokopi KTP 2 saksi.\n3. Fotokopi Surat Kematian / Akta Cerai (Duda / Janda).\n4. Pas foto 3x4 (2 lembar).\n5. Pengantar RT RW setempat.\n6. Surat pernyataan belum menikah.\n\nSilakan lengkapi syarat di atas untuk melakukan pembuatan Surat Nikah.\nSemoga ini membantu Anda! 😊"],
+
+      "context": ["nikah"]
+    },
+    {
+      "tag": "domisili",
+      "patterns": ["domisili", "domisil", "tempat tinggal"],
+      "responses": ["Berikut syarat melakukan pengajuan Surat Keterangan Domisili Tempat Tinggal:\n\n1. Fotokopi KTP 1 lembar.\n2. Surat Pengantar RT/RW asli.\n\nSilahkan lengkapi syarat di atas untuk melakukan pengajuan Surat Keterangan Domisili Tempat Tinggal.\nSemoga ini membantu Anda! 😊"
+    ],
+      "context": ["domisili"]
+    },
+    {
+      "tag": "ahliwaris",
+      "patterns": ["bikin ahli waris", "ahli waris","warisan"],
+      "responses": ["Berikut syarat melakukan pengajuan Surat Keterangan Ahli Waris:\n\n1. Membutuhkan surat pengantar RT/RW.\n2. Fotokopi Akte Kematian dari DISDUK BATAM.\n3. Fotokopi KTP almarhum/almarhumah.\n4. Fotokopi Buku Nikah dan Akte Perkawinan.\n5. Fotokopi KTP dan KK Ahli Waris.\n6. Fotokopi KK almarhum/almarhumah.\n7. Fotokopi Akte Kelahiran semua Ahli Waris.\n8. Fotokopi KTP saksi 2 orang (wajib KTP BATAM).\n9. Materai 10.000 2 lembar.\n10. Map merah.\n\nSilakan lengkapi syarat di atas untuk melakukan pengajuan Surat Keterangan Ahli Waris.\nSemoga ini membantu Anda! 😊"],
+      "context": ["ahliwaris"]
+    },
+    {
+      "tag": "akte",
+      "patterns": ["akte", "kelahiran", "akte kelahiran", "akta kelahiran"],
+      "responses": ["Berikut syarat melakukan pengajuan Surat Keterangan Akte Kelahiran:\n\n1. Fotokopi Kartu Keluarga.\n2. Fotokopi KTP Orang Tua.\n3. Fotokopi Surat Nikah.\n4. Fotokopi KTP Saksi 2 Orang.\n5. Surat Kelahiran Anak.\n6. Surat Pengantar RT RW asli.\n\nSilakan lengkapi syarat di atas untuk melakukan pengajuan Surat Keterangan Akte Kelahiran.\nSemoga ini membantu Anda! 😊"],
+      "context": ["akte"]
+    },
+    {
+      "tag": "kematian",
+      "patterns": ["mati", "kematian", "death", "tidak hidup"],
+      "responses" : ["Berikut syarat melakukan pengajuan Surat Keterangan Kematian:\n\n1. Pengantar RT RW setempat.\n2. Fotokopi KTP Almarhum / Almarhumah.\n3. Fotokopi KK Almarhum / Almarhumah.\n4. Fotokopi Buku Nikah Almarhum / Almarhumah (jika sudah menikah).\n5. Fotokopi Akte Almarhum / Almarhumah.\n6. Surat Keterangan Kematian dari rumah sakit / puskesmas (jika meninggal di rumah sakit / puskesmas).\n7. Surat Pemakaman dari TPU tempat dimakamkan.\n8. Isi Form F-218 (diambil di kantor lurah).\n9. Map merah 1 lembar.\n\nSilakan lengkapi syarat di atas untuk melakukan pengajuan Surat Keterangan Kematian.\nSemoga ini membantu Anda! 😊"],
+      "context": ["kematian"]
+    },
+    {
+      "tag": "capil",
+      "patterns": ["capil", "nikah capil", "sipil", "catatan sipil"],
+      "responses":["Berikut syarat melakukan pengajuan Surat Keterangan Nikah CAPIL:\n\n1. Pengantar RT/RW setempat.\n2. Fotokopi KTP (suami dan istri).\n3. Fotokopi Kartu Keluarga (KK).\n4. Fotokopi Akte Kelahiran.\n5. Fotokopi Ijazah.\n6. Pas foto gandeng 4x6 (2 lembar).\n7. Fotokopi Nikah Gereja.\n\nSilahkan lengkapi syarat di atas untuk melakukan pengajuan Nikah CAPIL.\nSemoga ini membantu Anda! 😊"],
+      "context": ["capil"]
+    },
+    {
+      "tag": "keluarga",
+      "patterns": ["kk", "kartu keluarga", "keluarga"],
+      "responses":["Berikut syarat melakukan pembuatan Kartu Keluarga Baru:\n\n1. Fotokopi Surat Nikah.\n2. Fotokopi Ijazah Terakhir.\n3. Surat Pindah Datang.\n4. Pengantar RT/RW setempat.\n\nSilahkan lengkapi syarat di atas untuk melakukan pembuatan Kartu Keluarga Baru.\nSemoga ini membantu Anda! 😊"
+    ], 
+      "context": ["keluarga"]
+    },
+    {
+      "tag": "ktp",
+      "patterns": ["buat ktp", "cetak ktp", "pengajuan ktp", "bikin ktp"],
+      "responses":["Berikut syarat melakukan pembuatan KTP baru:\n\n1. Fotokopi KK: 2 lembar.\n2. Fotokopi Akte Kelahiran: 1 lembar.\n\nSilakan lengkapi syarat di atas untuk melakukan pembuatan KTP.\nSemoga ini membantu Anda! 😊"
+    ],
+      "context": ["ktp"]
+    },
+    {
+      "tag": "usaha",
+      "patterns": ["usaha", "berusaha", "pengusaha", "kerja"],
+      "responses":["Berikut syarat melakukan pengajuan Surat Keterangan Usaha:\n\n1. Fotokopi KTP/KK (1 lembar).\n2. Surat Pengantar RT/RW asli.\n3. Foto tempat usaha.\n4. Surat sempadan.\n5. Surat pernyataan usaha.\n\nSilahkan lengkapi syarat di atas untuk melakukan pengajuan Surat Keterangan Usaha.\nSemoga ini membantu Anda! 😊"],
+      "context": ["usaha"]
+    },
+    {
+      "tag": "suratpenghasilan",
+      "patterns": ["penghasilan", "hasil", "menghasilkan"],
+      "responses":["SURAT PERNYATAAN PENGHASILAN\nAnda perlu mengisi Form yang ada di SILAP, disana akan diminta untuk mengisi :\nNama Lengkap :\nTempat/Tanggal Lahir :\nAgama :\nStatus Perkawinan :\nPekerjaan :\nAlamat :\nNo. Telp :\n\nAdalah benar Orang Tua dari :\nNama :\nTempat/Tanggal Lahir :\nPekerjaan :\nAlamat :\n\nDengan ini menyatakan bahwa saya berprofesi sebagai :\nDan memiliki penghasilan sebesar : ....... /bulan\nDengan jumlah tanggungan keluarga sebanyak ( ) orang.\n\nSurat pernyataan ini saya buat untuk melengkapi persyaratan pengurusan surat\nKeterangan penghasilan yang digunakan untuk pendaftaran ke perguruan tinggi /\nBeasiswa di : ...... \nJurusan : .......\n\nSilakan lengkapi syarat di atas untuk melakukan pembuatan surat penghasilan.\nSemoga ini membantu Anda!"
+    ],
+      "context": ["suratpenghasilan"]
+    },
+    {
+      "tag": "sempadan",
+      "patterns": ["sempadan", "keterangan sempadan"],
+      "responses":["BERIKUT SYARAT SURAT KETERANGAN SEMPADAN\nAnda perlu mengisi Form yang ada di SILAP, disana akan diminta untuk mengisi :\nNama Usaha / Yayasan\t:\nAlamat \t\t\t:\nKeperluan untuk\t:\n\nDengan ini menyatakan tidak merasa keberatan / terganggu / dan menyetujui atas kegiatan usaha / Yayasan tersebut diatas\t:\nKami menyetujui\t:\n1.\tSempadan Sebelah Utara.\nNama\t\t:\nAlamat\t\t:\nPekerjaan\t\t:\n2.\tSempadan Sebelah Selatan.\nNama\t\t:\nAlamat\t\t:\nPekerjaan\t\t:\n3.\tSempadan Sebelah Timur.\nNama\t\t:\nAlamat\t\t:\nPekerjaan\t\t:\n4.\tSempadan Sebelah Barat.\nNama\t\t:\nAlamat\t\t:\nPekerjaan\t\t:\n\nSilakan lengkapi syarat di atas untuk melakukan pembuatan Surat Sempadan.\nSemoga ini membantu Anda!"
+    ],
+      "context": ["sempadan"]
+    },
+    {
+      "tag": "suratketerangan",
+      "patterns": ["keterangan", "terangan"],
+      "responses":["BERIKUT SYARAT SURAT KETERANGAN\nAnda perlu mengisi Form yang ada di SILAP, disana akan diminta untuk mengisi :\nNama lengkap :\nJenis Kelamin :\nTempat/Tanggal Lahir :\nKewarganegaraan :\nAgama :\nStatus Perkawinan :\nPekerjaan :\nAlamat :\nNo KTP/KK :\n\nSilakan lengkapi syarat di atas untuk melakukan pembuatan Surat Keterangan.\nSemoga ini membantu Anda!"
+    ],
+      "context": ["suratketerangan"]
+    },
+    {
+      "tag": "memilikiusaha",
+      "patterns": ["memiliki usaha", "memiliki", "punya usaha"],
+      "responses":["BERIKUT SYARAT SURAT PERNYATAAN MEMILIKI USAHA\nAnda perlu mengisi Form yang ada di SILAP, disana akan diminta untuk mengisi :\nNama lengkap :\nJenis Kelamin :\nTempat/Tanggal Lahir :\nKewarganegaraan :\nAgama :\nStatus Perkawinan :\nPekerjaan :\nAlamat Usaha :\nAlamat Tempat Tinggal :\nEmail :\nNo. HP :\nNo KTP/masa berlaku\n\nBahwa Benar Saya Memiliki Usaha :\nSejak :\nKeperluannya Untuk :\n\nSilakan lengkapi syarat di atas untuk melakukan pembuatan Surat memiliki Usaha.\nSemoga ini membantu Anda!"
+    ],
+      "context": ["memilikiusaha"]
+    }
+
+  ]
+}
